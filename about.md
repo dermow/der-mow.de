@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Wer bin ich?
 
-Mein Name ist Sebastian und ich bin nun seit insgesamt 13 Jahren im IT-Umfelt tätig. Ich komme aus der klassichen "IT-Abteilung" sprich: Noteboks und PCs installieren,
+Mein Name ist Sebastian und ich bin nun seit insgesamt 13 Jahren im IT-Umfeld tätig. Ich komme aus der klassichen "IT-Abteilung" sprich: Noteboks und PCs installieren,
 Word-Probleme fixen und das ganze Zeug. Über die Jahre hinweg hab ich mich zunächst vom Windows-Admin stark hin zum "Linuxer" entwickelt und bin mit der Zeit immer
 weiter in den DevOps-Bereich gerutscht.
 
