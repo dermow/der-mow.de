@@ -12,6 +12,8 @@ Beginnen werde ich mit einer kleinen Ansible-Starter-Guide. Aber auch sonstige D
 
 Die ersten Postings sind bereits in Arbeit und folgen in Kürze!
 
+Ich bin sehr auf euer Feedback gespannt. Nutzt dazu einfach die Kommentar-Funktion oder schreibt mir auch gerne eine E-Mail!
+
 Grüße,
 der mow
 
