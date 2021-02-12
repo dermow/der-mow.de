@@ -18,7 +18,7 @@ als - ja gute Frage, als was eigentlich? Ich  nenne es mal "Cloud und Automation
 
 ## Was hab ich hier vor?
 
-So genau weiß ich das eigentlich noch gar nicht. Wie gesagt macht es mir viel Spaß, Anderen etwas beizubringen und da dachte ich mir: Warum nicht öffentlich und mit Mehrwert für den einen oder Anderen Interessierten. Im Zweifel auch als Dokumentation für mich selbst :)
+So genau weiß ich das eigentlich noch gar nicht. Wie gesagt macht es mir viel Spaß, anderen etwas beizubringen und da dachte ich mir: Warum nicht öffentlich und mit Mehrwert für den einen oder anderen Interessierten. Im Zweifel auch als Dokumentation für mich selbst :)
 
 ## Wie geht es weiter?
 
