@@ -9,7 +9,6 @@ So! Willkommen zur Ansible-Starter-Guide. Wie in der Ankündigung angedroht, qua
 Ansible zu. Einerseits werd ich versuchen, alle Mechaniken möglichst ausführlich und gleichzeitig verständlich zu erklären, das ganze aber auch mit
 praktischen Beispielen zu untermalen. Ich hoff mal das klappt! Feedback eurerseits ist auf jeden Fall immer mehr als willkommen! 
 
-# Allgemeines
 
 ## Was ist Ansible?
 
@@ -177,7 +176,7 @@ Zu Handlern sind 2 Dinge noch sehr wichtig zu wissen:
 Rollen sind ein relativ forgeschrittenr Mechanismus, auf den wir später genauer eingehen werden. Kurz gesagt lassen sich bestimmte Aufgaben aber in wiederverwendbare "Pakete" packen und in mehreren Playbooks nutzen.
 
 
-# To be continued...
+## To be continued...
 
 Wenn euch das alles jetzt noch etwas weit weg vorkommt - keine Sorge. Wir werden das alles noch bis ins Detail behandeln. Ich versuche auch zwischendrin direkt Anwendungsbeispiele
 aufzuzeigen, so dass ihr wenn ihr wollt auch schon beginnen könnt mit Ansible zu arbeiten.
@@ -187,7 +186,7 @@ Allgemein finde ich, es gibt keine bessere Methode etwas zu lernen, als es einfa
 Deshalb werden wir im  nächsten Teil auf die Installation von Ansible eingehen. Was bringt das viele Gerede, wenn man es am Ende nicht selbst ausprobieren kann. Richtig? Richtig!
 
 
-# Fragen, Kritik, Verbesserungsvorschläge... ?
+## Fragen, Kritik, Verbesserungsvorschläge... ?
 
 ... dann lasst einfach einen Kommentar auf dieser Seite oder schreibt mir auch gerne eine E-Mail!
 
