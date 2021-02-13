@@ -5,8 +5,7 @@ date:   2021-02-13 11:35:42 +0100
 categories: Ansible
 ---
 
-Da bin ich wieder! Wie versprochen gehen wir in diesem Teil auf die Installation von Ansible ein. Die Installation ist kein Hexenwerk, also wird das wohl einer der kürzeren
-Teile.
+Da bin ich wieder! Wie versprochen gehen wir in diesem Teil auf die Installation von Ansible ein. Diese ist kein Hexenwerk, also wird das wohl einer der kürzeren Teile.
 
 
 ## Allgemeine Infos
