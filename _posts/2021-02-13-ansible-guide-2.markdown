@@ -51,7 +51,7 @@ ansible --version
 ```
 
 
-## Installation unter Windows (Ubuntu Subsystem)
+## Installation unter Windows (Linux Subsystem)
 
 Für die Nutzung von Ansible unter Windows empfehle ich das in Windows nutzbare Linux-Subsystem (WSL). Gleichzeitig möchte ich aber darauf hinweisen, dass es hier zu einigen Abweichungen in der Nutzung kommen kann (Windows-Berechtigungen usw.).
 
