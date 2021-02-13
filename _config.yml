@@ -4,10 +4,11 @@ author:
   email: s.seibold@posteo.de
 
 show_excerpts: true # set to true to show excerpts on the homepage
+google_analytics: true
 
 disqus:
-    shortname: der-mow
-    url: https://der-mow.de
+  shortname: der-mow
+  url: https://der-mow.de
 
 minima:
   date_format: "%b %-d, %Y"
