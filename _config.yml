@@ -4,7 +4,7 @@ author:
   email: s.seibold@posteo.de
 
 show_excerpts: true # set to true to show excerpts on the homepage
-google_analytics: true
+google_analytics: false
 
 disqus:
   shortname: der-mow
