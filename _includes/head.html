@@ -22,16 +22,11 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4C8PPL710"></script>
   <script>
-    var clickMe = document.querySelector('.cc-allow');
-    clickMe.addEventListener('click', function (event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-V4C8PPL710');
-
-    });
+    gtag('config', 'G-V4C8PPL710');
   </script>
 
 
