@@ -22,11 +22,41 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V4C8PPL710"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-V4C8PPL710');
+  onInitialise: function (status) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-V4C8PPL710');
+      }
+      if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+      }
+      },
+      onStatusChange: function(status, chosenBefore) {
+      var type = this.options.type;
+      var didConsent = this.hasConsented();
+      if (type == 'opt-in' && didConsent) {
+      // enable cookies
+      }
+      if (type == 'opt-out' && !didConsent) {
+      // disable cookies
+      }
+      },
+      onRevokeChoice: function() {
+      var type = this.options.type;
+      if (type == 'opt-in') {
+      // disable cookies
+      }
+      if (type == 'opt-out') {
+      // enable cookies
+      }
+      }
+
   </script>
 
 
