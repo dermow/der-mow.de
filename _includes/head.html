@@ -41,7 +41,11 @@
       var type = this.options.type;
       var didConsent = this.hasConsented();
       if (type == 'opt-in' && didConsent) {
-      // enable cookies
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-V4C8PPL710');
       }
       if (type == 'opt-out' && !didConsent) {
       // disable cookies
@@ -53,7 +57,11 @@
       // disable cookies
       }
       if (type == 'opt-out') {
-      // enable cookies
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-V4C8PPL710');
       }
       }
 
