@@ -81,9 +81,9 @@ Anschließend werden wir nach dem Passwort für den Zieluser gefragt. Danach wir
 Hat alles funktioniert, sollten wir uns also ohne Passwort auf die Zielsysteme verbinden können:
 
 ``` bash
-ssh ansible@ansible-guide-1
-ssh ansible@ansible-guide-2
-ssh ansible@ansible-guide-3
+ssh ansible@ansible-guide1
+ssh ansible@ansible-guide2
+ssh ansible@ansible-guide3
 ```
 Und schon sind wir bereit um richtig mit Ansible loszulegen!
 
