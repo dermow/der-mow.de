@@ -64,9 +64,9 @@ Sobald das geschehen ist, könnt ihr einfach der Anleitung für Ubuntu (oder der
 
 ## So geht es weiter
 
-Im nächsten Artikel möchte ich auf die ersten Schritte mit Ansible eingehen. In der Zwischenzeit könnt ihr euch gerne eine kleine Testumgebung mit mindestens Zielsystemen aufsezten. 
+Im nächsten Artikel möchte ich auf die ersten Schritte mit Ansible eingehen. In der Zwischenzeit könnt ihr euch gerne eine kleine Testumgebung mit mindestens zwei Zielsystemen aufsezten. 
 
-z.B den [Ubuntu-Server](https://ubuntu.com/download/server)
+z.B mit [Ubuntu-Server](https://ubuntu.com/download/server)
 
 
 Bis dahin!

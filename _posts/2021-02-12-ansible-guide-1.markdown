@@ -140,7 +140,7 @@ Ein Play definiert ein Set an Tasks, welches auf bestimmten Hosts ausgeführt we
 
 ## Handler
 
-Handler sind im Grunde Tasks, die nur bei Bedarf aufgerufen werden. In Ansible nennt man dass dann "to notify" also "benachrichtigen". z.B können wir unser Playbook so gestalten, 
+Handler sind im Grunde Tasks, die nur bei Bedarf aufgerufen werden. In Ansible nennt man das dann "to notify" also "benachrichtigen". z.B können wir unser Playbook so gestalten, 
 dass ein Task eine Config-Datei kopiert und nur bei Änderungen an dieser, der zugehörige Dienst neu gestartet wird. 
 
 ### Beispiel:
@@ -173,7 +173,7 @@ Zu Handlern sind 2 Dinge noch sehr wichtig zu wissen:
 
 ## Roles
 
-Rollen sind ein relativ forgeschrittenr Mechanismus, auf den wir später genauer eingehen werden. Kurz gesagt lassen sich bestimmte Aufgaben aber in wiederverwendbare "Pakete" packen und in mehreren Playbooks nutzen.
+Rollen sind ein relativ fortgeschrittener Mechanismus, auf den wir später genauer eingehen werden. Kurz gesagt lassen sich bestimmte Aufgaben aber in wiederverwendbare "Pakete" packen und in mehreren Playbooks nutzen.
 
 
 ## To be continued...
