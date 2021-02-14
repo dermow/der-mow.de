@@ -19,9 +19,9 @@ So fangen wir an:
 
 * Drei VMs mit Ubuntu-Server 20.04 LTS dienen als Ziele:
 
-  * ansible-guide1 (192.168.0.11)
-  * ansible-guide2 (192.168.0.12)
-  * ansible-guide3 (192.168.0.13)
+  * ansible-guide-1 (192.168.0.11)
+  * ansible-guide-2 (192.168.0.12)
+  * ansible-guide-3 (192.168.0.13)
 
 Der Ziel-User für alle drei Hosts ist "ansible". Dieser hat volle Sudo-Rechte, ist also selbst kein Root-User, kann aber über das Kommando 'sudo', kurz für "super user do" Befehle mit Root-Rechten ausführen. Diese Mechanik macht sich auch Ansible zu nutze. Dazu aber gleich mehr.
 
@@ -81,9 +81,9 @@ Anschließend werden wir nach dem Passwort für den Zieluser gefragt. Danach wir
 Hat alles funktioniert, sollten wir uns also ohne Passwort auf die Zielsysteme verbinden können:
 
 ``` bash
-ssh ansible@ansible-guide1
-ssh ansible@ansible-guide2
-ssh ansible@ansible-guide3
+ssh ansible@ansible-guide-1
+ssh ansible@ansible-guide-2
+ssh ansible@ansible-guide-3
 ```
 Und schon sind wir bereit um richtig mit Ansible loszulegen!
 
