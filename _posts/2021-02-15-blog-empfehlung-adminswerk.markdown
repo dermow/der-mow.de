@@ -7,7 +7,7 @@ categories: Empfehlungen
 
 Huhu! An dieser Stelle möchte ich gerne den Blog eines ehemaligen Kollegen empfehlen. Dieser nennt sich [adminswerk.de](https://adminswerk.de).
 
-Dort findet ihr viele hilfreiche Artikel zu allen möglichen IT-Themen. Auch Ansilbe taucht dort immer wieder mal auf. Sehr hilfreich fand ich zum Beispiel den Eintrag zu Multiline Strings:
+Dort findet ihr viele hilfreiche Artikel zu allen möglichen IT-Themen. Auch Ansible taucht dort immer wieder mal auf. Sehr hilfreich fand ich zum Beispiel den Eintrag zu Multiline Strings:
 
 [https://adminswerk.de/multi-line-string-yaml-ansible-I/](https://adminswerk.de/multi-line-string-yaml-ansible-I/)
 
