@@ -51,7 +51,7 @@ db1.example-comany.intra
 
 ## Module
 
-Module sind die wichtigsten Werkzeuge in Ansible. Sie führen die eigentliche Arbeit aus. z.B gibt es ein Ansible-Modul um Pakte auf Debian zu installieren ([apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)), eine oder mehrere
+Module sind die wichtigsten Werkzeuge in Ansible. Sie führen die eigentliche Arbeit aus. z.B gibt es ein Ansible-Modul um Pakete auf Debian zu installieren ([apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)), eine oder mehrere
 Zeilen an eine Datei anzuhängen ([lineinfile](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/lineinfile_module.html)) oder eine Datei aus einer Vorlage zu erstellen ([template](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/template_module.html)). Jedes Modul hat sein eigenes Set an Parametern.
 
 Wer jetzt schonmal einen ersten Eindruck gewinnen möchte, wie viele Möglichkeiten Ansible bietet findet hier eine Liste mit allen integrierten Modulen:
@@ -65,9 +65,8 @@ Aber nicht von der Menge verunsichern lassen. Uns reichen erstmal schon ein paar
 
 ## Tasks
 
-Ein Task definiert eine Aufgabe, die pro Zielhost zu tun ist. Eine Task-Definition besteht aus dem Aufruf eines Moduls und der Definition der Modul-Parameter. Hier ein kurzes 
+Ein Task definiert eine Aufgabe, die pro Zielhost zu tun ist. Eine Task-Definition besteht aus dem Aufruf eines Moduls und der Definition der Modul-Parameter. Hier ein kurzes Beispiel:
 
-### Beispiel:
 
 ```yaml
 
@@ -82,7 +81,7 @@ Der im Beispiel genannte Task soll dafür sorgen, dass auf dem entfernten Debian
 
 ## Playbooks
 
-Ein Playbook ist eine Sammlung eines oder mehrer Plays (Erklärung folgt). Ein Play wiederum die Ausführung eines, meist aber mehrerer Tasks.
+Ein Playbook ist eine Sammlung eines oder mehrerer Plays (Erklärung folgt). Ein Play ist wiederum die Ausführung eines, meist aber mehrerer Tasks.
 
 ### Beispiel: Apache-Installation
 
@@ -195,4 +194,4 @@ Deshalb werden wir im  nächsten Teil auf die Installation von Ansible eingehen.
 
 Bis dann!
 
-der mow
+Der Mow
