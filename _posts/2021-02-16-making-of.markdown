@@ -16,6 +16,7 @@ Da dieser Blog ein Freizeitprojekt von mir ist, möchte ich möglichst wenig Zei
 Ich habe mich deshalb dafür entschieden GitHub Pages zu nutzen. Dies hat gleich mehrere Vorteile:
 
 1) Die Sourcecodeverwaltung und Versionierung ist direkt inbegriffen
+   
 2) Das Setup ist serverless - ich muss mich also nicht um Updates auf OS/Framework-Ebene kümmern
 
 Das Repository zu diesem Blog findet ihr übrigens hier:
