@@ -10,7 +10,7 @@ categories:
 ---
 
 Ich habe kürzlich mein Notebook neu installiert, da ich vom Default-Ubuntu 20.04 auf Ubuntu MATE in selbiger Version 
-gewechselt bin. Dabei musste ich auch meine OpenVPN-Verbindung zur Firma neu einrichten. Ich ziehe mir also die aktuellste Version des OpenVPN-Configfiles und versuche erfolglos die Import-Funktion in der GUI zu nutzen.
+gewechselt bin. Dabei musste ich auch meine OpenVPN-Verbindung neu einrichten. Ich ziehe mir also die aktuellste Version des OpenVPN-Configfiles und versuche erfolglos die Import-Funktion in der GUI zu nutzen.
 
 Dabei lässt sich das über die Network-Manager CLI (nmcli) viel einfacher lösen:
 
