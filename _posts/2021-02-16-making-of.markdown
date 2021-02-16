@@ -7,7 +7,7 @@ categories: Sonstiges
 
 Ich würde an dieser Stelle gerne auf den Aufbau dieser Seite eingehen. Insbesondere haben mich einige Rückfragen erreicht, warum denn Verbindungen zu IP-Adressen in den USA aufgebaut werden. Lasst mich das Setup also kurz beschreiben.
 
-Um dieses Projekt zu realisieren, setze ich folgende Komponenten ein:
+![Alt-Text](/assets/makingof.png)
 
 ### Github Pages (Content Hosting, Source Code Management)
 
