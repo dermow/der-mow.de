@@ -148,8 +148,6 @@ In Zeile 9 folgt hier nochmal die Definition eines Parameters auf Task-Ebene (Ac
 Zu Modul-Parametern ist wichtig zu wissen, dass es einige gibt die optional sind und einige die zwingend angegeben werden müssen. Hier hilft uns aber die Ansible-Dokumentation sehr zuverlässig weiter. Für unser Beispiel finden wir die Informationen auf diesen Seiten:
 
 * [Doku zum Modul apt](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html)
-
-
 * [Doku zum Modul systemd](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/systemd_module.html)
 
 ## Beispiel
