@@ -468,7 +468,7 @@ Würden wir das ganze jetzt erneut ausführen, würde Ansible die apache2.conf w
       systemd:
         name: apache2
         state: restarted
-      become: trure
+      become: true
   tasks:
     - name: Apache2 Setup
       apt:
