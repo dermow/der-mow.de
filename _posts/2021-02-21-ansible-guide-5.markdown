@@ -79,7 +79,8 @@ Variablen können auch auf Taskebene definiert werden. Das sähe dann so aus:
        src: files/style.css
        dest: {% raw %}"{{ my_docroot }}/style.css" {% endraw %}
      become: true
-     my_docroot: /var/www/html
+     vars:     
+       my_docroot: /var/www/html
 ```
 
 Das macht aber nur in ganz speziellen Fällen Sinn, wenn tatsächlich nur ein bestimmter Task diese Variable benötigt.
