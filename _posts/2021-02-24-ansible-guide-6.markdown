@@ -23,7 +23,7 @@ Ein paar kleine Beispiele:
 
 **inventory_hostname**: Enthält den im Inventory definierten Hostname des aktuellen Hosts
 
-**ansible_default_ipv4**: Enthält die erste von Ansible gefundene, primäre IPv4-Adresse
+**ansible_default_ipv4.address**: Enthält die erste von Ansible gefundene, primäre IPv4-Adresse
 
 **ansible_distribution**: Enthält den Namen der OS-Distribution des Zielhosts, z.B. "Ubuntu", "Debian" oder "Suse".
 
