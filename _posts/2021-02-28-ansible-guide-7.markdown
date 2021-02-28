@@ -163,7 +163,7 @@ Die vollständige Liste findet ihr hier:
 [https://docs.ansible.com/ansible/2.5/reference_appendices/common_return_values.html](https://docs.ansible.com/ansible/2.5/reference_appendices/common_return_values.html)
 
 
-### Zusammenfassung
+### so geht's weiter 
 Im nächsten Teil möchte ich euch Conditionals zeigen, das sind Bedingungen, an die wir die Ausführung unserer Tasks knüpfen können. 
 
 Viele Grüße und bis dahin!
