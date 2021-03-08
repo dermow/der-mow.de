@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Podcast-Empfehlung: RFC Podcast"
+title:  "Podcast-Empfehlung: Request for Comments"
 date:   2021-03-08 11:50:42 +0100
 categories: Allgemein
 ---
