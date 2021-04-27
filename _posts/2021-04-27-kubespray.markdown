@@ -77,7 +77,7 @@ Damit hätten wir das Basis-Setup für unser Cluster auch schon fertig. Also las
 
 ```bash
 cd ~/kubespray
-ansible-playbook -i inventory/mycluster/hosts.ini cluster.yml
+ansible-playbook -i inventory/mycluster/hosts.ini cluster.yml --become
 ```
 
 Das Playbook läuft nun los und dauert eine ganze Weile (bei mir so ca. 15 Minuten). Anschließend war das Cluster verfügbar:
