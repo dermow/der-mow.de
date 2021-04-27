@@ -97,7 +97,7 @@ Huh? So einfach? Jep, ich war ebenfalls erstaunt - wie einfach und zuverlässig 
 
 ## Fazit
 
-Das Beispiel beschreibt natürlich eine sehr einfache Variante. Natürlich lässt sich per Kubespray das Cluster nach den eigenen Bedürfnissen anpassen. Ich habs bisher nur für meine k8s-Testumgebung genutzt, werde es aber für künftige Produktionscluster definitiv in Betracht ziehen!
+Das Beispiel beschreibt eine sehr einfache Variante. Natürlich lässt sich per Kubespray das Cluster nach den eigenen Bedürfnissen anpassen. Ich habs bisher nur für meine k8s-Testumgebung genutzt, werde es aber für künftige Produktionscluster definitiv in Betracht ziehen!
 
 Bis denne!
 
