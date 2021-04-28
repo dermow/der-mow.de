@@ -6,6 +6,6 @@ categories:
   - Allgemein
 ---
 
-Moinsn! Ich hab gerade einige Änderungen am CSS für diesen Blog vorgenommen - sollte es bei euch zu Anzeigeprobleme, besonders in der Preview der Posts kommen, bitte einmal den Browser-Cache leeren.
+Moinsn! Ich hab gerade einige Änderungen am CSS für diesen Blog vorgenommen - sollte es bei euch zu Anzeigeproblemen, besonders in der Preview der Posts kommen, bitte einmal den Browser-Cache leeren.
 
 Ich wünsch euch einen schönen Tag :-)
