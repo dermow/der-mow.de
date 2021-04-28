@@ -25,6 +25,8 @@ Wie immer möchte ich euch das mit einem kleinen Beispiel verdeutlichen. Nehmen 
 
 ```
 
+<!-- excerpt-end -->
+
 Führen wir dieses Playbook nun aus, ist das Ergebnis erstmal sehr unspektakulär:
 
 ```

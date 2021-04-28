@@ -32,6 +32,8 @@ Lasst uns versuchen, die Struktur eines Playbooks anhand des folgenden Beispiels
 
 ```
 
+<!-- excerpt-end -->
+
 In den folgenden Zeilen möchte ich dieses Beispiel-Playbook mit euch durchgehen:
 
 #### Taskname

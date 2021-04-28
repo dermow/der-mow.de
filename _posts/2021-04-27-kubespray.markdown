@@ -25,6 +25,8 @@ Ich möchte euch noch kurz an einem Beispiel zeigen, wie einfach wir uns damit e
 
 Für dieses Beispiel werden wir Ansible nutzen um das Cluster bereitzustellen. Dazu muss sichergestellt sein, dass unser Host auf die drei Nodes per SSH zugreifen kann.
 
+<!-- excerpt-end -->
+
 ## Schritt 1: kubespray Repository klonen
 ``` bash
 cd ~

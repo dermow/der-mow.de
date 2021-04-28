@@ -27,6 +27,8 @@ ansible-guide-4 ansible_ssh_user=ansible ansible_host=192.168.0.14
 
 ```
 
+<!-- excerpt-end -->
+
 Wir möchten nun also 4 Hosts mit Ansible verwalten. Drei davon auf Ubuntu-Basis und eines mit einem CentOS. Unsere beiden Webserver sind dabei identisch. Bei
 den Datenbank-Servern dagegen setzen wir 2 unterschiedliche Betriebssysteme ein. 
 

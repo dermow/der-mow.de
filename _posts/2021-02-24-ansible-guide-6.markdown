@@ -17,6 +17,8 @@ ok: [ansible-guide-1]
 ```
 Dies ist ein Task, der von Ansible standardmäßig ausgeführt wird, wenn das Sammeln von Facts aktiviert ist. Facts sind Variablen, die von Ansible zum Start eines Playbooks automatisch gesetzt werden. Sie enthalten alle möglichen Informationen zum aktuellen Play, dessen Zielsystemen und der aktuellen Umgebung. 
 
+<!-- excerpt-end -->
+
 Ein paar kleine Beispiele:
 
 **ansible_hostname**: Enthält den von Ansible herausgefundenen Hostnamen des aktuellen Hosts

@@ -33,6 +33,8 @@ packe ich das Ganze in ein eigenes Playbook. Ihr könnt aber auch einfach das we
      become: true
 ```
 
+<!-- excerpt-end -->
+
 Je weiter wir unser Playbook stricken, desto häufiger werden wir den Pfad "/var/www/html" verwenden müssen. Es wäre doch super, wenn wir diesen einfach in ein Variable packen können. Dann machen wir das doch:
 
 ##### ~/ansible-guide/playbook-with-vars.yml
