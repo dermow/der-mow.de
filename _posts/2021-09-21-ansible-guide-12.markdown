@@ -24,7 +24,10 @@ people:
   - name: Albus
     nachname: Dumbledore
     alter: 99
+
 ```
+
+<!-- excerpt-end -->
 
 Wie in einer simplen "list" markiert der Bindestrich den Beginn eines neuen Items. In diesem Beispiel besitzt jedes der beiden Items die Felder "name", "nachname" und "alter".
 
