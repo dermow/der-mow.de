@@ -69,8 +69,17 @@ ansible-playbook --vault-password-file ~/.myvaultpw playbook_with_vault_secrets.
       path: /etc/hosts
       line: "192.168.1.1 example.local"
       regexp: "^192.168.1.1"
-        
----
+..
+```
 
-
+## Create directory
+``` yaml
+...
+ - name: create dir
+   lineinfile:
+     path: /opt/mydir
+     state: directory
+     owner: user1
+     group: group1
+...
 ```
