@@ -27,6 +27,8 @@ ansible-playbook -e "foo=bar, bar=foo" playbook.yml
 ansible-playbook -e @extra-vars.yml playbook.yml
 ```
 
+<!-- excerpt-end -->
+
 ## AdHoc
 ``` bash
 # System informations
