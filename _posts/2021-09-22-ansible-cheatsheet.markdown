@@ -59,3 +59,18 @@ ansible-vault edit --vault-password-file ~/.myvaultpw vault.pw
 # Run playbook with vault
 ansible-playbook --vault-password-file ~/.myvaultpw playbook_with_vault_secrets.yml
 ```
+
+## Line in file
+``` yaml
+...
+  # add etc hosts entry
+  - name: enter line in /etc/hosts
+    lineinfile:
+      path: /etc/hosts
+      line: "192.168.1.1 example.local"
+      regexp: "^192.168.1.1"
+        
+---
+
+
+```
