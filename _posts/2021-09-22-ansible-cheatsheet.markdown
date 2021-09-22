@@ -45,3 +45,15 @@ ansible all -i my_inventory -m apt -a "name=apache2, state=present"
 ansible all -i my_inventory -m ping
 
 ```
+
+## Vault
+``` bash
+# create new vault
+ansible-vault create --vault-password-file ~/.myvaultpw vault.pw
+
+# edit vault
+ansible-vault edit --vault-password-file ~/.myvaultpw vault.pw
+
+# Run playbook with vault
+ansible-playbook --vault-password-file ~/.myvaultpw playbook_with_vault_secrets.yml
+```
