@@ -76,7 +76,7 @@ ansible-playbook --vault-password-file ~/.myvaultpw playbook_with_vault_secrets.
 ``` yaml
 ...
  - name: create dir
-   lineinfile:
+   file:
      path: /opt/mydir
      state: directory
      owner: user1
