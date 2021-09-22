@@ -24,7 +24,7 @@ ansible-playbook -i my-inventory.txt playbook.yml
 ansible-playbook -e "foo=bar, bar=foo" playbook.yml
 
 # Extra vars from file
-ansible-playbook -e "@extra-vars.yml" playbook.yml
+ansible-playbook -e "@extra-vars.json" playbook.yml
 ```
 
 <!-- excerpt-end -->
