@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ansible Starter-Guide: #013 - Ansilbe Vault"
+title:  "Ansible Starter-Guide: #013 - Ansible Vault"
 date:   2021-09-24 15:48:42 +0100
 categories: Ansible
 ---
