@@ -75,3 +75,13 @@ Nachdem wir mittlerweile bereits bei Teil 12 der Ansible Guide angekommen sind, 
 * Loop Control
 * Ändern des Namens der Index-Variable
 * Pause zischen den einzelnen Items
+
+#### [Teil 13: Ansible Vault](https://der-mow.de/ansible/2021/09/24/ansible-guide-13.html)
+* Vault
+* Verschlüsseln und Entschlüsseln von Inhalten
+
+#### [Teil 14: Rollen](https://der-mow.de/ansible/2021/09/26/ansible-guide-14.html)
+* Rollen
+* Beispiel-Rolle
+* Ansible Galaxy
+
