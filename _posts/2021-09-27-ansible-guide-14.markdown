@@ -247,7 +247,7 @@ Wir legen also einen entsprechenden Handler an...
 ##### ~/ansible-guide-roles/roles/my-webserver-role/handlers/main.yml
 ```yaml
 ---
- name: restart-apache
+- name: restart-apache
   become: true
   systemd:
     name: "apache2"
