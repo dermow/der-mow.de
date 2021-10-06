@@ -110,7 +110,7 @@ Was ist nun passiert? Ansible hat unseren ersten Task ausgeführt, da dessen Bed
 
 Wir nutzen für beide Conditionals verschiedene Operators: '>' und '=='. Conditionals in Ansible basieren auf der Templating-Sprache Jinja2. Wir können also alle in dieser Sprache verfügbaren Operatoren nutzen. Eine Übersicht hierzu findet ihr hier:
 
-[https://jinja.palletsprojects.com/en/master/templates/#logic](https://jinja.palletsprojects.com/en/master/templates/#logic)
+[https://jinja.palletsprojects.com/en/3.0.x/templates/](https://jinja.palletsprojects.com/en/3.0.x/templates/)
 
 Mit Jinja2 werden wir noch sehr viel arbeiten, wenn wir zu den fortgeschritteneren Teilen des Guides kommen. 
 
