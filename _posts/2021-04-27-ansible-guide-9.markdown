@@ -47,12 +47,14 @@ Besser gesagt, nutzen wir hier zwei Werkzeuge, die wir bereits kennen. Zum einen
   gather_facts: true
   tasks:
     - name: install postgresql on debian based systems (Ubuntu)
+      become: true
       apt:
         name: postgresql
         update_cache: true
       when: "ansible_os_family == 'Debian'"
       
     - name: install postgresql on Redhat based systems (CentOS)
+      become: true
       yum:
         name: postgresql
       when: "ansible_os_family == 'RedHat'"
@@ -100,6 +102,7 @@ Dafür springe ich etwas zurück und erweitere das Playbook aus Teil 4, in dem w
    hosts: webservers
    tasks: 
      - name: install apache2
+       become: true
        apt:
          name: apache2
          state: present
@@ -107,12 +110,14 @@ Dafür springe ich etwas zurück und erweitere das Playbook aus Teil 4, in dem w
        become: true
 
     - name: enable and start apache2 systemd service
+      become: true
       systemd:
         name: apache2
         enabled: true
         state: started
     
     - name: add dev user on second webserver
+      become: true
       user: 
         name: herbert
         state: present
@@ -136,12 +141,14 @@ Beispiel auf alle Hosts ausführen, können wir die Ausführung einzelner Tasks 
    hosts: all
    tasks: 
      - name: add default user to all systems
+       become: true
        user:
          name: technik
          state: present
        become: true
     
     - name: add dbadmin user on db servers
+      become: true
       user: 
         name: dbadmin
         state: present
