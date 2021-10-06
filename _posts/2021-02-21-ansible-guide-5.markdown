@@ -70,7 +70,7 @@ Variablen können auch auf Taskebene definiert werden. Das sähe dann so aus:
   tasks:
     - name: copy index.html
       copy: 
-        src: files/index.hmlt
+        src: files/index.html
         dest: {% raw %}"{{ my_docroot }}/index.html" # <-- Nutzung der Variable {% endraw %}
       become: true
       vars:
