@@ -230,7 +230,7 @@ Unser einfaches Playbook sieht so aus:
       become: true           # <-- Root-Rechte vor dem Ausführen
       apt:                   # <-- Name des Modules
         name: htop           # <-- Modul-Parameter: Name des Pakets
-        state: installed     # <-- Modul-Parameter: Status des Pakets, z.B "present, absent, latest"
+        state: present     # <-- Modul-Parameter: Status des Pakets, z.B "present, absent, latest"
 ```
 Um das ganze nun auszuführen, brauchen wir ein weiteres Kommando:
 
