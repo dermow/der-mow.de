@@ -27,6 +27,8 @@ hier ein kurzes Code-Snippet:
         msg: "{%raw%}{{ my_dynamic_list }}{%endraw%}"
 ```
 
+<!-- excerpt-end -->
+
 Output:
 
 ```
