@@ -1,0 +1,152 @@
+---
+layout: post
+title:  "Terraform #03 - HCL Basics"
+date:   2023-03-10 08:00:00 +0100
+categories: Terraform
+---
+
+Hey!
+
+In Teil drei der Terraform-Reihe möchte ich euch die Basics der Hashicorp eigenen Konfigurationssprache HCL vorstellen. HCL steht dabei ganz einfach für “Hashicorp Configuration Language”.
+
+Eine detaillierte Beschreibung findet ihr in der Hashicorp Dokumentation:
+
+https://developer.hashicorp.com/terraform/language/syntax/configuration
+
+Ich möchte das ganze hier aber für euch zusammenfassen!
+
+Zunächst mal halten wir fest, dass die HCL einen deklarativen Ansatz verfolgt, wir schreiben also kein Script - sondern definieren vielmehr unseren gewünschten Zielzustand.
+
+<!-- excerpt-end -->
+
+### Aufbau
+
+Es gibt drei Begriffe, die uns bei der Nutzung von HCL immer wieder unterkommen werden. Das sind:
+
+* Blocks
+* Arguments
+* Identifier
+
+#### Blocks
+Blocks sind die logische Zusammenfassung von Konfigurationseinheiten. Das kann in Terraform zum Beispiel eine Ressource sein, oder auch eine Datasource.
+
+Jeder Block beginnt mit der Definition des Typs, und jeder Blocktyp definiert dabei wieder, wie viele weitere Argumente folgen müssen. Hier einige Beispiele, die das gGanze etwas veranschaulichen.
+
+```terraform
+resource "aws_instance" "my-instance" {
+  name = "my-test-instance"
+  ...
+}
+```
+Hier definieren wir einen Block des Typs "**resource**". Für diesen Typ ist definiert, dass noch ein weiteres Argument folgen muss, nämlich der Ressourcen-Identifier (my-instance).
+
+```terraform
+data "aws_instance" "my-existing-instance" {
+  name = "my-test-instance"
+  ...
+}
+```
+Hier definieren wir einen Block des Typs "**data**". Für diesen Typ ist ebenfalls definiert, dass noch ein weiteres Argument folgen muss, nämlich der Data-Identifier (my-existing-instance).
+
+
+```terraform
+provider "aws" {
+  region = "eu-central-1"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
+}
+```
+
+Für den Typ "**provider**" ist nur ein weiteres Feld notwendig, nämlich der Provider-Typ (aws).
+
+#### Arguments
+
+Ein Argument weist einem Namen bzw. einem Feld einen Wert zu. Dieser Name ist dabei wiederum ein Identifier (zu denen wir gleich kommen). Schauen wir uns nochmal unsere Beispiel-Ressource an:
+
+```terraform
+resource "aws_instance" "my-instance" {
+  name = "my-test-instance"
+  instance_type = "t3.micro"
+}
+```
+
+Wir haben hier wieder die Definition eines Ressourcen-Blocks. Innerhalb der Blockdefinition befinden sich nun die Arguments. In diesem Falle ist "name" der **Argument-Name**, und "my-test-instance" der
+**Argument-Wert**. Argumentdefinitionen folgen also immer dem Schema: 
+
+**argument_name** = **argument_value**
+
+#### Identifier
+
+Mit Identifiern sind in der HCL sehr viele Elemente gemeint. Das können z.B sein:
+
+* Variablen-Namen
+* Argument-Namen
+* Ressourcen-Namen
+
+Für Identifier gelten gewisse Regeln. Sie dürfen zum Beispiel nur folgende Zeichen enthalten:
+
+* Buchstaben
+* Zahlen
+* Unterstriche (_)
+* Bindestriche (-)
+
+Natürlich gibt es hier eine vollständige Referenz in der Dokumentation. Hashicorp nutzt hier die **Unicode Identifier Syntax**, welche hier nachzulesen ist:
+
+http://unicode.org/reports/tr31/
+
+
+### Kommentare
+Natürlich können wir in unserem HCL Code auch Kommentare nutzen:
+
+
+#### Single Line
+```terraform
+# Dies ist ein einzeiliges Kommentar!
+resource "aws_instance" "my-instance" {
+  name = "my-test-instance"
+  instance_type = "t3.micro"
+}
+
+// Dies ist ebenfalls ein einzeiliges Kommentar!
+resource "aws_instance" "my-instance" {
+  name = "my-test-instance"
+  instance_type = "t3.micro"
+}
+```
+
+#### Multiline
+```terraform
+/* Dieser Kommentar erstreckt sich über....
+   mehrere Zeilen... und zwar...
+   einfach weil ich es kann... */
+resource "aws_instance" "my-instance" {
+  name = "my-test-instance"
+  instance_type = "t3.micro"
+}
+
+```
+
+
+### Ende ...
+
+Das wären also die absoluten HCL Basics, diese gelten im Prinzip für alle Anwendungsfälle in Terraform. Der Vollständigkeit halber sei noch gesagt, dass wir das alles auch im JSON Format definieren könnten, allerdings wird das von Natur aus enorm unübersichtlich. Deshalb ist die HCL-Variante hier wesentlich besser.
+
+Im nächsten Teil möchte ich dann auf drei weitere wichtige Mechanismen und deren Einsatz eingehen:
+
+* Variablen
+* Inputs
+* Outputs
+
+
+
+Bis zum nächsten Mal! :)
+
+Mow
+
+
+
+
+
+
+
+
