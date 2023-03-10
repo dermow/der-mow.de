@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Terraform #03 - HCL Basics"
+title:  "Terraform #03 - Syntax / HCL Basics"
 date:   2023-03-10 08:00:00 +0100
 categories: Terraform
 ---
